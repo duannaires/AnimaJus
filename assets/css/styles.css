@@ -1,0 +1,18 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f0ec;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#anima-jus-1 {
+    width: 500px;
+    height: 600px;
+}
