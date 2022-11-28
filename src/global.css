@@ -19,7 +19,16 @@ body {
 }
 
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
+}
+
+.aj-text-gold {
+  color: #AE966A;
+}
+.aj-text-red {
+  color: #591315;
+}
+.aj-nav-link:hover {
+  color: #591315;
 }
