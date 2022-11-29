@@ -8,6 +8,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 24px;
+  min-width: 320px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
