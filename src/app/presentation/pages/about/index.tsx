@@ -1,7 +1,5 @@
+import { AboutScreen } from "../../components/about/about-screen";
+
 export function About() {
-  return (
-    <div className='d-flex justify-content-center'>
-      <h1>Sobre</h1>
-    </div>
-  )
+  return <AboutScreen pageTitle="Sobre"/>
 }

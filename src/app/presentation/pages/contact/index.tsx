@@ -1,7 +1,5 @@
+import { ContactScreen } from "../../components/contact/contact-screen";
+
 export function Contact() {
-  return (
-    <div className='d-flex justify-content-center'>
-      <h1>Contato</h1>
-    </div>
-  )
+  return <ContactScreen pageTitle="Contato" />
 }

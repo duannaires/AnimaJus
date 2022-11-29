@@ -41,3 +41,9 @@ body {
   background-color: #591315;
   color: #FFFFFF;
 }
+
+.card-hero {
+  background-image:url(/src/assets/images/01.jpeg);
+  background-position: center left;
+  background-size: cover;
+}
