@@ -33,6 +33,12 @@ body {
 .aj-nav-link:hover {
   color: #591315;
 }
+.aj-nav-link:active {
+  color: #591315;
+}
+.aj-nav-link-dropdown:active {
+  background-color: #AE966A;
+}
 .aj-btn-red {
   background-color: #992313;
   color: #FFFFFF;

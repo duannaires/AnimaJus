@@ -51,7 +51,7 @@ export function NavBar() {
                   {
                     assuntos.map(item => (
                       <li key={assuntos.indexOf(item)}>
-                        <Link to={item.path} className="dropdown-item aj-text-gold aj-nav-link" >{item.text}</Link>
+                        <Link to={item.path} className="dropdown-item aj-text-gold aj-nav-link-dropdown" >{item.text}</Link>
                       </li>
                     ))
                   }
