@@ -22,7 +22,7 @@ export function NavBarTop() {
               {
                 menuItemsTop.map(item => (
                   <li className="nav-item" key={menuItemsTop.indexOf(item)}>
-                    <Link to={item.path} className="nav-link aj-text-light aj-nav-link ps-0" >{item.label}</Link>
+                    <Link to={item.path} className="nav-link aj-text-light-plus aj-nav-link ps-0" >{item.label}</Link>
                   </li>
                 ))
               }
