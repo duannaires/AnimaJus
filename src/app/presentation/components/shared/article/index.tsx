@@ -3,7 +3,7 @@ import imageArticle from "../../../../../assets/images/rights.jpg"
 export function Article() {
   return (
       <div className="container">
-        <div className="article d-flex align-items-center shadow-sm aj-bg-light">
+        <div className="article d-flex flex-md-row flex-column align-items-center shadow-sm aj-bg-light">
           <div className="article-image">
             <img src={imageArticle} alt="Imagem de artigo" />
           </div>
