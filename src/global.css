@@ -8,8 +8,6 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 24px;
-  background-color: #f1f0ec;
-
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,6 +21,9 @@ body {
   padding: 0;
 }
 
+.aj-text-light {
+  color: #B1B1B1;
+}
 .aj-text-gold {
   color: #AE966A;
 }
@@ -31,4 +32,12 @@ body {
 }
 .aj-nav-link:hover {
   color: #591315;
+}
+.aj-btn-red {
+  background-color: #992313;
+  color: #FFFFFF;
+}
+.aj-btn-red:hover {
+  background-color: #591315;
+  color: #FFFFFF;
 }
