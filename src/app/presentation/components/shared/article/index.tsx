@@ -1,9 +1,11 @@
+import imageArticle from "../../../../../assets/images/rights.jpg"
+
 export function Article() {
   return (
       <div className="container">
         <div className="article d-flex align-items-center shadow-sm aj-bg-light">
           <div className="article-image">
-            <img src="/src/assets/images/rights.jpg" alt="Imagem de artigo" />
+            <img src={imageArticle} alt="Imagem de artigo" />
           </div>
           <div className="article-info p-4">
             <div className="article-info__date mb-4">
