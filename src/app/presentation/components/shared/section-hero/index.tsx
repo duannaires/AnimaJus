@@ -36,14 +36,14 @@ export function SectionHero() {
           </div>
           <div className="col-lg-6">
             <article className="card card-full hover-a mb-4 ">
-              <div className="row">
-                <div className="col-4 col-md-4 pe-2 pe-md-0">
+              <div className="d-flex align-items-center">
+                <div className="pe-2 pe-md-0">
                   <div className="">
                     <img width="180" height="137" src={imageArticle2} className="" alt="" loading="lazy" />
                   </div>
                 </div>
-                <div className="col-8 col-md-8">
-                  <div className="article-info px-1 py-2">
+                <div className="px-2">
+                  <div className="article-info ">
                     <h3 className="article-info__title h6 h4-md h6-lg">
                       Regulação da mídia: censura ou instrumento a serviço da democracia?
                     </h3>
@@ -61,14 +61,14 @@ export function SectionHero() {
             </article>
               
             <article className="card card-full hover-a mb-4 ">
-              <div className="row">
-                <div className="col-4 col-md-4 pe-2 pe-md-0">
+						  <div className="d-flex align-items-center">
+                <div className="pe-2 pe-md-0">
                   <div className="">
                     <img width="180" height="137" src={imageArticle3} className="" alt="" loading="lazy" />
                   </div>
                 </div>
-                <div className="col-8 col-md-8">
-                  <div className="article-info px-1 py-2">
+                <div className="px-2">
+                  <div className="article-info">
                     <h3 className="article-info__title h6 h4-md h6-lg">
                       A importância da participação política das mulheres negras 
                     </h3>
@@ -86,14 +86,14 @@ export function SectionHero() {
             </article>
               
             <article className="card card-full hover-a mb-4 ">
-              <div className="row">
-                <div className="col-4 col-md-4 pe-2 pe-md-0">
+              <div className="d-flex align-items-center">
+                <div className="pe-2 pe-md-0">
                   <div className="">
                     <img width="180" height="137" src={imageArticle4} className="" alt="" loading="lazy" />
                   </div>
                 </div>
-                <div className="col-8 col-md-8">
-                  <div className="article-info px-1 py-2">
+                <div className="px-2">
+                  <div className="article-info">
                     <h3 className="article-info__title h6 h4-md h6-lg">
                       O Brasil como estratégia para o futuro climático do planeta
                     </h3>
