@@ -9,7 +9,7 @@ export function SectionHero() {
   return (
     <div className="pt-4 pb-0 card-grid">
       <div className="container">
-        <div className="row g-4">
+        <div className="row mb-1">
           <div className="col-lg-6">
             <article className="card card-full hover-a mb-4">
               <div className="article-image">
@@ -34,7 +34,7 @@ export function SectionHero() {
               </div>
             </article>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 d-flex flex-column justify-content-between">
             <article className="card card-full hover-a mb-4 ">
               <div className="d-flex align-items-center">
                 <div className="pe-2 pe-md-0">
