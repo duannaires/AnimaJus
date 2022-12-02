@@ -16,7 +16,7 @@ export function Article() {
                   30 de novembro de 2022
               </time>
             </div>
-            <h1 className="article-info__title h3-sm h1-md h3-lg">Direito, Estado e Sociedade</h1>
+            <h1 className="article-info__title h4 h3-md h4-lg">Direito, Estado e Sociedade</h1>
             <p className="article-info__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ipsum nunc, laoreet eget rhoncus vitae, interdum in eros. Duis fringilla elit massa, nec dictum ligula commodo a. </p>
           </div>
         </div>
