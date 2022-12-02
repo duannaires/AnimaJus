@@ -42,9 +42,9 @@ export function SectionHero() {
                     <img width="180" height="137" src={imageArticle2} className="" alt="" loading="lazy" />
                   </div>
                 </div>
-                <div className="px-2">
+                <div className="p-2">
                   <div className="article-info ">
-                    <h2 className="article-info__title h4 h3-md h4-lg">
+                    <h2 className="article-info__title h4 h3-md h4-lg text-wrap">
                       Regulação da mídia: censura ou instrumento a serviço da democracia?
                     </h2>
                     <div className="article-info__publication mb-2 text-muted small">
@@ -67,9 +67,9 @@ export function SectionHero() {
                     <img width="180" height="137" src={imageArticle3} className="" alt="" loading="lazy" />
                   </div>
                 </div>
-                <div className="px-2">
+                <div className="p-2">
                   <div className="article-info">
-                    <h2 className="article-info__title h4 h3-md h4-lg">
+                    <h2 className="article-info__title h4 h3-md h4-lg text-wrap">
                       A importância da participação política das mulheres negras 
                     </h2>
                     <div className="article-info__publication mb-2 text-muted small">
@@ -89,12 +89,12 @@ export function SectionHero() {
               <div className="d-flex align-items-center">
                 <div className="pe-2 pe-md-0">
                   <div className="">
-                    <img width="180" height="137" src={imageArticle4} className="" alt="" loading="lazy" />
+                    <img width="180"  src={imageArticle4} className="" alt="" loading="lazy" />
                   </div>
                 </div>
-                <div className="px-2">
+                <div className="p-2">
                   <div className="article-info">
-                    <h2 className="article-info__title h4 h3-md h4-lg">
+                    <h2 className="article-info__title h4 h3-md h4-lg text-wrap">
                       O Brasil como estratégia para o futuro climático do planeta
                     </h2>
                     <div className="article-info__publication mb-2 text-muted small">
