@@ -15,7 +15,7 @@ export function NavBarTop() {
   ]
   return (
     <Fragment>
-      <div className="navbar-top bg-white small">
+      <div className="navbar small">
         <div className="container">
           <div className="d-md-flex justify-content-between align-items-center my-2">
             <ul className="nav">
@@ -29,7 +29,6 @@ export function NavBarTop() {
             </ul>
             <div></div>
           </div>
-          <div className="border-bottom border-2 border-danger opacity-1"></div>
         </div>
       </div>
     </Fragment>

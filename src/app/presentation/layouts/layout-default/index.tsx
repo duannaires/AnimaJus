@@ -6,9 +6,12 @@ import { NavBarTop } from "../../components/shared/navbar-top";
 export function LayoutDefault() {
   return (
     <Fragment>
-      <header className="mt-0">
+      <header className="aj-bg-default">
+        <div className="container">
         <NavBarTop />
+          <div className="border-bottom border-2 border-danger opacity-1"></div>
         <NavBar />
+        </div>
       </header>
       <main>
         <Outlet/>

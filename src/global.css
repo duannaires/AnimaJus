@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -17,9 +18,8 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-#root {
-  margin: 0 auto;
-  padding: 0;
+.aj-bg-default {
+  background-color: #f1f0ec;
 }
 .aj-bg-light {
   background-color: #F9F9F9;
