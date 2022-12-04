@@ -5,7 +5,7 @@ interface ContactScreenProps {
 export function ContactScreen({ pageTitle }: ContactScreenProps) {
   return (
     <div className="container d-flex justify-content-center">
-      <div className='col-6 p-3'>
+      <div className='col-9 col-md-9 col-lg-6 p-3'>
         <div>
          <h1 className="mt-4 aj-text-red text-center">{ pageTitle }</h1>
         </div>
