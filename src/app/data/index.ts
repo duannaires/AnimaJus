@@ -1,6 +1,6 @@
 import imageArticle0 from "../../assets/images/rights.jpg"
 import venezuelanos from "../../assets/images/venezuelanos.png"
-import imageArticle1 from "../../assets/images/rights1.jpg"
+import myrthes from "../../assets/images/myrthes.jpg"
 import prision from "../../assets/images/prision.jpg"
 
 export interface IArticle {
@@ -28,14 +28,14 @@ export const articleMain: IArticle =
 
 export const articles: IArticle[] = [
   {
-    title: "Violação dos Direitos dos Venezuelanos no Brasil",
+    title: "A conquista de Myrthes Gomes de Campos na advocacia brasileira",
     description: "Após a morte do Presidente da Venezuela, Hugo Chaves, o seu vice, Nicolás Maduro assume o poder em 2012, onde por sua vez, não possuía o carisma do seu antecessor, tendo uma grande rejeição do seu povo e por conta do seu autoritarismo, recebeu várias sanções de outros países, gerando a maior crise de sua história fazendo com que milhares de venezuelanos migrem em busca de melhores condições, pois alegam uma grande falta de alimento e escassez de energia.",
-    image: `${imageArticle1}`,
-    content: '<p>Após a morte do Presidente da Venezuela, Hugo Chaves, o seu vice, Nicolás Maduro assume o poder em 2012, onde por sua vez, não possuía o carisma do seu antecessor, tendo uma grande rejeição do seu povo e por conta do seu autoritarismo, recebeu várias sanções de outros países, gerando a maior crise de sua história fazendo com que milhares de venezuelanos migrem em busca de melhores condições, pois alegam uma grande falta de alimento e escassez de energia.<p></p>Atualmente, a Venezuela enfrenta uma grave crise humanitária, pois parte considerável de sua população sofre com a falta de alimentos, o que a força a ter que se refugiar em países vizinhos. O país segue em crise, a tensão maior é por uma possível intervenção dos Estados Unidos, visto por muitos como uma forma dos americanos de se apropriarem das reservas petrolíferas, o Brasil apesar da oposição segue com uma postura de não intervenção. A situação da Venezuela ainda é indefinida, e muito provavelmente só uma mudança democrática no governo seria a solução para acabar com a crise do país.</p><p>A imigração venezuelana no Brasil foi motivada pelo cenário de crise vivido na Venezuela, que enfrenta um caos político, econômico e institucional. O país vive instabilidades no governo desde 2013. A falta de emprego e de recursos básicos para a sobrevivência resultou em uma situação de miséria, fome, agravamento de doenças e violência.</p><p>Por causa disso, milhares de venezuelanos começaram a migrar para outras regiões à procura de melhores condições de vida e oportunidades de emprego. O Brasil, por ser um dos países de encontro com a Venezuela, se torna um dos locais mais escolhidos pelos refugiados para procurarem abrigo, pois de acordo com o site gov.br cerca de trinta e três venezuelanos cruzam as fronteiras do Brasil por hora, o que é aproximadamente 800 pessoas por dia, o que reafirma a grande busca dos venezuelanos ao Brasil em busca de melhores condições de vida.</p>',
-    authors: ["Thauana Ribeiro"],
-    status: "destaque",
+    image: `${myrthes}`,
+    content: '<p>No século XIX, a sociedade brasileira era altamente estratificada e a família era definida como patriarcal, onde havia um marido extremamente autoritário, que dominava os filhos e a sua mulher, que tinha como característica, a submissão.<p><p>Naquela época a escolaridade era privilégio de poucas meninas, somente as “bem-nascidas” tinham esse direito. Mas esse ensino tinha um estereótipo de educação doméstica, ao contrário dos homens.<p><p>Ao passar dos anos, em 1827 surge no Brasil a primeira lei referente a educação feminina, permitindo que as meninas finalmente frequentassem colégios, assim, almejando cargos de maiores prestígios.<p><p>Aqui no Brasil, como fato histórico, a pioneira Myrthes Gomes de Campos foi quem abriu caminho para as mulheres da advocacia brasileira.<p><p>Nascida em Macaé (RJ) em 1875, se dirigiu à capital para cursar a Faculdade Livre de Ciências Jurídicas e Sociais do Rio de Janeiro. Formou-se em 1898 junto com outras mulheres. Eram mal vistas pela sociedade e julgadas, além de estudarem sem a perspectiva real de que conseguiriam exercer a profissão. Apesar de tudo isso, não desistiram.<p>',
+    authors: ["Ísis Eduarda", "Yasmin Marques", "Valeska Oliveira", "Ana Claúdia", "Francisco Júnior"],
+    status: "normal",
     active: true,
-    publication: "03 de dezembro de 2022"
+    publication: "16 de novembro de 2022"
   },
   {
     title: "Individualidade, preconceito e julgamentos: A dificuldade da ressocialização de um ex-presidiário",
