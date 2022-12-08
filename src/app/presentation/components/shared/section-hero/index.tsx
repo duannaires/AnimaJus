@@ -4,6 +4,7 @@ import imageArticle2 from "../../../../../assets/images/discussion.jpg"
 import imageArticle3 from "../../../../../assets/images/rights2.jpg"
 import imageArticle4 from "../../../../../assets/images/climate.jpg"
 
+
 export function SectionHero() {
 
   return (

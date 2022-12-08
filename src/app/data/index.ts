@@ -10,6 +10,15 @@ export interface IArticle {
 
 export const articles: IArticle[] = [
   {
+    title: "Violação dos Direitos dos Venezuelanos no Brasil",
+    description: "Após a morte do Presidente da Venezuela, Hugo Chaves, o seu vice, Nicolás Maduro assume o poder em 2012, onde por sua vez, não possuía o carisma do seu antecessor, tendo uma grande rejeição do seu povo e por conta do seu autoritarismo, recebeu várias sanções de outros países, gerando a maior crise de sua história fazendo com que milhares de venezuelanos migrem em busca de melhores condições, pois alegam uma grande falta de alimento e escassez de energia.",
+    image: "",
+    content: '<p>Após a morte do Presidente da Venezuela, Hugo Chaves, o seu vice, Nicolás Maduro assume o poder em 2012, onde por sua vez, não possuía o carisma do seu antecessor, tendo uma grande rejeição do seu povo e por conta do seu autoritarismo, recebeu várias sanções de outros países, gerando a maior crise de sua história fazendo com que milhares de venezuelanos migrem em busca de melhores condições, pois alegam uma grande falta de alimento e escassez de energia.<p></p>Atualmente, a Venezuela enfrenta uma grave crise humanitária, pois parte considerável de sua população sofre com a falta de alimentos, o que a força a ter que se refugiar em países vizinhos. O país segue em crise, a tensão maior é por uma possível intervenção dos Estados Unidos, visto por muitos como uma forma dos americanos de se apropriarem das reservas petrolíferas, o Brasil apesar da oposição segue com uma postura de não intervenção. A situação da Venezuela ainda é indefinida, e muito provavelmente só uma mudança democrática no governo seria a solução para acabar com a crise do país.</p>',
+    authors: ["Thauana Ribeiro"],
+    status: "destaque",
+    active: true
+  },
+  {
     title: "Individualidade, preconceito e julgamentos: A dificuldade da ressocialização de um ex-presidiário",
     description: "Ao se tratar das dificuldades da ressocialização de um ex-detento, é importante analisar o ambiente no qual ele cresceu, viveu e se tornou cidadão.",
     image: "",
