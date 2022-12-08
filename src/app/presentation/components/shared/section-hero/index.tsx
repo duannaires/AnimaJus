@@ -3,6 +3,8 @@ import imageArticle1 from "../../../../../assets/images/themis.jpg"
 import imageArticle2 from "../../../../../assets/images/discussion.jpg"
 import imageArticle3 from "../../../../../assets/images/rights2.jpg"
 import imageArticle4 from "../../../../../assets/images/climate.jpg"
+import { articleMain } from "../../../../data";
+import { slugify } from "../../../../utils";
 
 
 export function SectionHero() {
@@ -14,23 +16,26 @@ export function SectionHero() {
           <div className="col-lg-6">
             <article className="card card-full hover-a mb-4">
               <div className="article-image">
-                <Link to="/">
+                <Link to={`articles/${slugify(articleMain.title)}`} className="aj-link text-black">
                   <img src={imageArticle1} alt="Imagem de artigo" loading="lazy" />
                 </Link>
               </div>
               <div className="article-info p-3">
-                <h1 className="article-info__title h3-sm h1-md h3-lg aj-text-red fw-bold">
-                  Ativismo Judicial
-                </h1>
+                <Link to={`articles/${slugify(articleMain.title)}`} className="aj-link text-black">
+                  <h1 className="article-info__title h3-sm h1-md h3-lg aj-text-red fw-bold">
+                    {articleMain.title}
+                  </h1>
+                </Link>
                 <div className="article-info__publication mb-2 text-muted small">
                   <span className="article-info__author d-none d-sm-inline me-1 fw-bold">
-                    Júlio César
+                    {articleMain.authors}
                   </span>
-                  <time className="article-info__date" dateTime="2022-11-30T02:13:05+00:00">
-                      30 de novembro de 2022
+                  <time className="article-info__date">
+                      {articleMain.publication}
                   </time>
                 </div>
-                <p className="article-info__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ipsum nunc, laoreet eget rhoncus vitae, interdum in eros. Duis fringilla elit massa, nec dictum ligula commodo a.
+                <p className="article-info__description">
+                  {articleMain.description}
                 </p>
               </div>
             </article>

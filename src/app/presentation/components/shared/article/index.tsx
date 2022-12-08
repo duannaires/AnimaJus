@@ -6,9 +6,10 @@ interface ArticleProps {
   description: string
   image: string
   authors: string[]
+  publication: string
 }
 
-export function Article({ title, description, image, authors }: ArticleProps) {
+export function Article({ title, description, image, authors, publication }: ArticleProps) {
 
 
   return (
@@ -24,7 +25,7 @@ export function Article({ title, description, image, authors }: ArticleProps) {
               </span>
               <div>
                 <time className="article-info__date" dateTime="2022-11-30T02:13:05+00:00">
-                    30 de novembro de 2022
+                    {publication}
                 </time>
               </div>
             </div>
