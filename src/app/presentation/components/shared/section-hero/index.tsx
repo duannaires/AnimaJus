@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import imageArticle1 from "../../../../../assets/images/themis.jpg"
 import imageArticle2 from "../../../../../assets/images/discussion.jpg"
 import imageArticle3 from "../../../../../assets/images/rights2.jpg"
 import imageArticle4 from "../../../../../assets/images/climate.jpg"
@@ -17,7 +16,7 @@ export function SectionHero() {
             <article className="card card-full hover-a mb-4">
               <div className="article-image">
                 <Link to={`articles/${slugify(articleMain.title)}`} className="aj-link text-black">
-                  <img src={imageArticle1} alt="Imagem de artigo" loading="lazy" />
+                  <img src={articleMain.image} alt="Imagem de artigo" loading="lazy" />
                 </Link>
               </div>
               <div className="article-info p-3">
