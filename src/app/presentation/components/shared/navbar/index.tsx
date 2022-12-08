@@ -37,8 +37,8 @@ export function NavBar() {
         <div className="container">
           <Link to={"/"} className="navbar-brand">
             <img width="36px" height="36px" src={animaJusLogo} alt="" />
-             <span className='aj-text-gold'> Ânima</span>
-           <span className='aj-text-red'>Jus</span></Link>
+             <span className='aj-text-gold h3'> Ânima</span>
+           <span className='aj-text-red h3'>Jus</span></Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

@@ -67,3 +67,9 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.authors {
+  font-style: italic;
+}
+.aj-link {
+  text-decoration: none;
+}
